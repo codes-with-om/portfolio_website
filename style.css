@@ -667,3 +667,58 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
+/* Final size tuning after deployment */
+
+.navbar,
+.section {
+  max-width: 1180px;
+}
+
+.section-heading h2 {
+  font-size: clamp(32px, 4.4vw, 48px);
+}
+
+.section-heading p {
+  font-size: 13px;
+}
+
+.skill-card h3,
+.project-card h3,
+.timeline-item h3,
+.summary-card h3 {
+  font-size: 22px;
+}
+
+.summary-card p,
+.project-card p,
+.timeline-item p,
+.contact-wrapper p {
+  font-size: 16px;
+}
+
+.skill-list span,
+.project-tags span {
+  font-size: 13px;
+  padding: 7px 12px;
+}
+
+.skill-card,
+.project-card,
+.summary-card,
+.timeline-item {
+  padding: 28px;
+}
+
+.projects-grid {
+  gap: 26px;
+}
+
+.project-points li {
+  font-size: 15px;
+}
+
+.project-btn,
+.btn {
+  font-size: 15px;
+}
