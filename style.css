@@ -666,7 +666,15 @@ a {
     max-width: 100%;
   }
 
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+
   .timeline {
+    grid-template-columns: 1fr;
+  }
+
+  .summary-grid {
     grid-template-columns: 1fr;
   }
 
@@ -757,30 +765,4 @@ a {
   object-position: center 10%;
   transform: none;
   display: block;
-}
-
-/* Summary cards - desktop horizontal layout */
-.summary-grid {
-  display: grid !important;
-  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
-  gap: 18px !important;
-}
-
-.summary-grid,
-.skills-container {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 18px;
-}
-
-.summary-grid {
-  display: grid !important;
-  grid-template-columns: 1fr 1fr 1fr !important;
-  gap: 18px !important;
-}
-
-.skills-container {
-  display: grid !important;
-  grid-template-columns: 1fr 1fr 1fr !important;
-  gap: 18px !important;
 }
